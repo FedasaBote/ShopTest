@@ -1,0 +1,24 @@
+GET https://api-bc823ad1-fbea-4f08-8f41-cf0d9d280fbf.sendbird.com/
+Api-Token: f93b05ff359245af400aa805bafd2a091a173064
+
+###
+PUT https://api-bc823ad1-fbea-4f08-8f41-cf0d9d280fbf.sendbird.com/v3/group_channels/sendbird_open_channel_14092_bf4075fbb8f12dc0df3ccc5c653f027186ac9211/join
+Api-Token: f93b05ff359245af400aa805bafd2a091a173064
+Content-Type: application/json
+
+{
+  "user_ids": ["Fedasa"]
+}
+
+###
+POST https://api-bc823ad1-fbea-4f08-8f41-cf0d9d280fbf.sendbird.com/v3/users
+Api-Token: f93b05ff359245af400aa805bafd2a091a173064
+Content-Type: application/json
+
+{
+  "user_id": "Fedasa",
+  "nickname": "Fedasa"
+}
+
+###
+GET   https://api.testvalley.kr/collections?prearrangedDiscount

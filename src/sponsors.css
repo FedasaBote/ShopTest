@@ -1,0 +1,20 @@
+.sponsors__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.sponsors__container img {
+  width: 80px;
+  height: 80px;
+  margin: 0 1rem;
+}
